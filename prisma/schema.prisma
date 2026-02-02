@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model UserPreferences {
+  id            String   @id @default(cuid())
+  adults        Int
+  teens         Int
+  children      Int
+  activityLevel String
+  budgetSek     Int
+  diet          String
+  dislikes      String
+  allergies     String
+  mealsPerDay   Int
+  notes         String
+  createdAt     DateTime @default(now())
+}
+
+model WeeklyPlan {
+  id        String   @id @default(cuid())
+  summary   String
+  budgetSek Int
+  data      String
+  createdAt DateTime @default(now())
+}
+
+model ShoppingCart {
+  id        String   @id @default(cuid())
+  store     String
+  totalSek  Int
+  data      String
+  createdAt DateTime @default(now())
+}

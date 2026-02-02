@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-oat-50 text-slate-900;
+}
+
+.app-card {
+  @apply rounded-2xl border border-oat-200 bg-white shadow-sm;
+}

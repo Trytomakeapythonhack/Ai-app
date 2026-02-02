@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "veggies_mix_1kg",
+    "name": "Grönsaksblandning 1kg",
+    "pack_g": 1000,
+    "price_sek": 39,
+    "macros_per_100g": { "kcal": 32, "protein": 2, "carbs": 6, "fat": 0.2 }
+  },
+  {
+    "sku": "eggs_12pk",
+    "name": "Ägg 12-pack",
+    "pack_g": 720,
+    "price_sek": 42,
+    "macros_per_100g": { "kcal": 143, "protein": 13, "carbs": 1, "fat": 10 }
+  },
+  {
+    "sku": "nuts_200g",
+    "name": "Blandade nötter 200g",
+    "pack_g": 200,
+    "price_sek": 45,
+    "macros_per_100g": { "kcal": 607, "protein": 20, "carbs": 22, "fat": 54 }
+  }
+]
