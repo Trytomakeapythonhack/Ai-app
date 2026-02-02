@@ -23,6 +23,11 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+### Quick visual preview (no build required)
+If you only want to see the UI styling without installing dependencies, open
+`public/preview.html` in a browser. This is a static snapshot that mirrors the MVP
+landing + weekly plan preview layout.
+
 ### Environment variables
 Copy `.env.example` to `.env.local` and fill in values as needed.
 
