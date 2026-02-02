@@ -1,0 +1,23 @@
+[
+  {
+    "sku": "mince_1kg",
+    "name": "Nötfärs 1kg",
+    "pack_g": 1000,
+    "price_sek": 139,
+    "macros_per_100g": { "kcal": 176, "protein": 20, "carbs": 0, "fat": 10 }
+  },
+  {
+    "sku": "yogurt_1kg",
+    "name": "Grekisk yoghurt 1kg",
+    "pack_g": 1000,
+    "price_sek": 49,
+    "macros_per_100g": { "kcal": 120, "protein": 9, "carbs": 4, "fat": 8 }
+  },
+  {
+    "sku": "avocado_2pk",
+    "name": "Avokado 2-pack",
+    "pack_g": 300,
+    "price_sek": 28,
+    "macros_per_100g": { "kcal": 160, "protein": 2, "carbs": 9, "fat": 14 }
+  }
+]
